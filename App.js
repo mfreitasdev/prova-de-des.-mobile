@@ -3,7 +3,6 @@ import { NavigationContainer } from '@react-navigation/native';
 import Header from './src/components/Header';
 import Nota from './src/components/Main/Nota';
 import Intervalo from './src/components/Main/Intervalo';
-import Routes from './src/pages/routes';
 
 
 export default function App() {
@@ -12,9 +11,6 @@ export default function App() {
       <Header/>
       <Nota/>
       <Intervalo/>
-      <NavigationContainer>
-        <Routes/>
-      </NavigationContainer>
 
     </View>
   );
